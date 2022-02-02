@@ -5,7 +5,7 @@
 	--clr-primary-3: hsl(205, 72%, 37%);
 	--clr-primary-4: hsl(205, 63%, 48%);
 	/* primary/main color */
-	--clr-primary-5: hsl(205, 63%, 48%);
+	--clr-primary-5: rgb(228, 130, 51);;
 	/* lighter shades of primary color */
 	--clr-primary-6: hsl(205, 89%, 70%);
 	--clr-primary-7: hsl(205, 90%, 76%);
@@ -179,7 +179,7 @@ button {
 
 .cta-green {
     background: var(--clr-primary-5);
-    color: #192440;
+    color: var(--clr-primary-1);
 }
 
 .cta-green:hover {
@@ -188,13 +188,13 @@ button {
 }
 
 .cta-blue {
-    background: #192440;
+    background: var(--clr-primary-1);
     color: #ffffff;
 }
 
 .cta-blue:hover {
     color: #ffffff;
-    background: #121a2e;
+    background: var(--clr-primary-1);
 }
 
 .cta-ghost {
@@ -204,7 +204,7 @@ button {
 
 .cta-ghost:hover {
     color: #ffffff;
-    background: #121a2e;
+    background: var(--clr-primary-1);
 }
 
 #banner {
@@ -231,7 +231,7 @@ button {
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: var(--clr-primary-5);
 }
 
 /********** price table **********/
@@ -241,7 +241,7 @@ button {
 }
 
 #price-table__premium {
-    background: #192440;
+    background: var(--clr-primary-1);
     color: #ffffff;
 }
 
@@ -259,19 +259,19 @@ button {
 }
 
 #contact form {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-10);
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid var(--clr-primary-5);
+    border: 1px solid var(--clr-primary-10);
     color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background: var(--clr-primary-1);
     padding: 2rem 3rem;
 }
 
