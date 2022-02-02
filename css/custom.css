@@ -316,20 +316,20 @@ Sidebar
     font-size: 2rem;
     background: transparent;
     border-color: transparent;
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-4);
     transition: var(--transition);
     cursor: pointer;
     animation: bounce 2s ease-in-out infinite;
   }
   .sidebar-toggle:hover {
-    color: var(--clr-primary-7);
+    color: var(--clr-primary-5);
   }
   @keyframes bounce {
     0% {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.5);
+      transform: scale(1.1);
     }
     100% {
       transform: scale(1);
