@@ -317,8 +317,9 @@ Nav Bar
 */
 
 nav {
-	background: var(--clr-white);
-	box-shadow: var(--light-shadow);
+	background: transparent;
+	color: white;
+	
 }
 
 .nav-header {
@@ -330,7 +331,7 @@ nav {
 
 .nav-toggle {
 	font-size: 1.5rem;
-	color: var(--clr-primary-5);
+	color: var(--clr-primary-10);
 	background: transparent;
 	border-color: transparent;
 	transition: var(--transition);
@@ -348,11 +349,11 @@ nav {
 }
 
 .logo {
-	height: 15vh;
+	min-width: 5rem;
 }
 
 .menu a {
-	color: var(--clr-grey-3);
+	color: var(--clr-grey-10);
 	font-size: 1rem;
 	text-transform: capitalize;
 	letter-spacing: var(--spacing);
@@ -363,7 +364,7 @@ nav {
 
 .menu a:hover {
 	background: var(--clr-primary-8);
-	color: var(--clr-primary-5);
+	color: var(--clr-primary-1);
 	padding-left: 1.5rem;
 }
 
@@ -372,6 +373,7 @@ nav {
 }
 
 .menu {
+	margin-left: 30vw;
 	height: 0;
 	overflow: hidden;
 	transition: var(--transition);
