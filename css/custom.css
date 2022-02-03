@@ -373,7 +373,7 @@ nav {
 }
 
 .menu {
-	margin-left: 30vw;
+	margin-left: 20vw;
 	height: 0;
 	overflow: hidden;
 	transition: var(--transition);
